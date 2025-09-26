@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h2>Portfolio</h2>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#accomplishments">Accomplishments</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Mohammed-Ameer Omar Tampakan</span></h1>
+                <p>BSIT Student | Programmer | GAMER</p>
+                <a href="#about" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About/Biography Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                       I'm Mohammed-Ameer Omar Tampakan and I'm a BSIT Student from Notre Dame of Jolo College
+                    </p>
+                        
+                    <p>
+                       I also love to play basketball and Online games
+                    </p>
+                    <p>
+                        As an IT beginner, I'm eager to learn and apply new skills to support effective technology solutions. I am committed to growing my expert and contributing to a team focused on innovation and service excellence.       
+                    </p>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <img src="IMG/unnamed.jpg" alt="About Me Image" />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Accomplishments Section -->
+    <section id="accomplishments" class="accomplishments">
+        <div class="container">
+            <h2 class="section-title">My Accomplishments</h2>
+            <div class="accomplishments-grid">
+                <div class="accomplishment-card">
+                    <div class="slider-container">
+                        <input type="radio" name="slider-1" id="slide-1-1" checked>
+                        <input type="radio" name="slider-1" id="slide-1-2">
+                        <div class="slider">
+                            <img src="img/INSTRUCTOR.jpg" alt="Assistant Instructor">
+                            <img src="logo.jpg" alt="Teaching">
+                        </div>
+                        <div class="slider-nav">
+                            <label for="slide-1-1" class="slider-dot"></label>
+                            <label for="slide-1-2" class="slider-dot"></label>
+                        </div>
+                    </div>
+                    <i class="fas fa-school"></i>
+                    <h3>BSIT STUDENT</h3>
+                    <p>Learning as an BSIT STUDENT in Notre Dame Jolo college.</p>
+                </div>
+                <div class="accomplishment-card">
+                    <div class="slider-container">
+                        <input type="radio" name="slider-2" id="slide-2-1" checked>
+                        <input type="radio" name="slider-2" id="slide-2-2">
+                        <div class="slider">
+                            <img src="img/PP.jpg" alt="Graduation">
+                            <img src="logo.jpg" alt="Degree">
+                        </div>
+                        <div class="slider-nav">
+                            <label for="slide-2-1" class="slider-dot"></label>
+                            <label for="slide-2-2" class="slider-dot"></label>
+                        </div>
+                    </div>
+                    <i class="fas fa-basketball-ball"></i>
+                    <h3>BASKETBALL SHS</h3>
+                    <p>Champion in shs basketball.</p>
+                </div>
+                <div class="accomplishment-card">
+                    <div class="slider-container">
+                        <input type="radio" name="slider-3" id="slide-3-1" checked>
+                        <input type="radio" name="slider-3" id="slide-3-2">
+                        <div class="slider">
+                            <img src="img/OMB.jpg" alt="Administrative Work">
+                            <img src="logo.jpg" alt="Ombudsman">
+                        </div>
+                        <div class="slider-nav">
+                            <label for="slide-3-1" class="slider-dot"></label>
+                            <label for="slide-3-2" class="slider-dot"></label>
+                        </div>
+                    </div>
+                    <i class="fas fa-award"></i>
+                    <h3>SHS AWARD</h3>
+                    <p>With honor on Graduation SHS 2024.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>ameertampakan96@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>09554080847</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Serinata Homes Gandasuli 7400</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.facebook.com/ameer.tmpkn" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/meerxzy?igsh=MTVlcnh5aWlucWhweQ==" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.tiktok.com/@ameertampakan?_t=ZS-8zsPjb9FxjB&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
+            </div>
+            <p>&copy; 2025 TAMPAKAN. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
